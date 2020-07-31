@@ -16,6 +16,11 @@ namespace EasyEpplus.Common
     /// </summary>
     public class EPPlusHelper
     {
+        /// <summary>
+        /// 获取单元格数据，为空输出为""
+        /// </summary>
+        /// <param name="obj"></param>
+        /// <returns></returns>
         private static string GetString(object obj)
         {
             try
